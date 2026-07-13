@@ -1,0 +1,38 @@
+name: Update profile card
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-profile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Refresh SVG stats
+        run: python scripts/update_profile.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_STATS_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
+          PROFILE_REPO_COUNT: ${{ vars.PROFILE_REPO_COUNT }}
+          PROFILE_COMMIT_COUNT: ${{ vars.PROFILE_COMMIT_COUNT }}
+          PROFILE_USERNAME: ${{ github.repository_owner }}
+
+      - name: Commit changes
+        run: |
+          if [[ -n "$(git status --porcelain dark_mode.svg light_mode.svg)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add dark_mode.svg light_mode.svg
+            git commit -m "Update profile stats"
+            git push
+          fi

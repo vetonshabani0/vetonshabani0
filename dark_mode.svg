@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 1320 620" width="1320" height="620" role="img" aria-labelledby="title desc">
+  <title id="title">Veton Shabani GitHub profile terminal card</title>
+  <desc id="desc">A terminal-style GitHub profile card with ASCII art and profile details.</desc>
+  <style>
+    .card { fill: #161b22; stroke: #30363d; }
+    .muted { fill: #8b949e; }
+    .text { fill: #c9d1d9; font: 18px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+    .small { font-size: 15px; }
+    .label { fill: #ffa657; font-weight: 700; }
+    .value { fill: #a5d6ff; }
+    .good { fill: #7ee787; }
+    .bad { fill: #ff7b72; }
+    .line { stroke: #8b949e; stroke-width: 2; }
+    .ascii { fill: #c9d1d9; font: 10px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+  </style>
+
+  <rect class="card" x="1" y="1" width="1318" height="618" rx="12" />
+  <text class="text small" x="38" y="48" font-weight="700">vetonshabani0 / README.md</text>
+
+  <rect x="38" y="76" width="1244" height="500" rx="14" fill="#0d1117" />
+
+  <text class="ascii">
+    <tspan x="72" y="88" />
+    <tspan x="192.4" y="97">..............</tspan>
+    <tspan x="168.3" y="106">....,,......,.........</tspan>
+    <tspan x="150.3" y="115">......,,,...,,......,.......</tspan>
+    <tspan x="150.3" y="124">.......,:,..,,..,,,,........</tspan>
+    <tspan x="150.3" y="133">......,,,...,...,,.....,......</tspan>
+    <tspan x="138.2" y="142">.........,...,...,:...,,,,.....,..</tspan>
+    <tspan x="138.2" y="151">................,,,...,,,..,......</tspan>
+    <tspan x="132.2" y="160">...............,...........,,.......</tspan>
+    <tspan x="150.3" y="169">.....,,,,,,:,,..,.................</tspan>
+    <tspan x="120.2" y="178">.....::;rsssXXisArrrrsii;i;:,,........</tspan>
+    <tspan x="114.1" y="187">....;s23hHGS###S#9GSS#SS#SGHM5AXr:.....</tspan>
+    <tspan x="96.1" y="196">.....,iX553MHGS##99BB%%%B9999#SGHh52Ar,...</tspan>
+    <tspan x="96.1" y="205">....,irA25hMGS#999BB%%%%BB9B9#SSHh32Asr,...</tspan>
+    <tspan x="96.1" y="214">....;srA53hHGS#9BBBB%%%%BBBB99#SHh35Asri,..</tspan>
+    <tspan x="96.1" y="223">....;ssA5hhHGS#9BBB%B%%BBBBBB9#SHMh52srr:...</tspan>
+    <tspan x="96.1" y="232">...,;rsA33MMHS#99BBBB%%BBB9999SGHMh35Xsi,....</tspan>
+    <tspan x="96.1" y="241">....:rsA53hHGS#999BBBBBBB9999##GHM335Xr;,...</tspan>
+    <tspan x="102.1" y="250">...:rsX53hHSS#99B%BBBBBBBBBB9#SHMh32Xr;,...</tspan>
+    <tspan x="114.1" y="259">.:irAhMHHS#9#99BBB%%%%BB9999SGGMM3Xii,...</tspan>
+    <tspan x="114.1" y="268">.;;ir;rsrrsAMGS#999999##GH3Xrirrr;r;::.</tspan>
+    <tspan x="114.1" y="277">.i:..,,,,...,:i5HHGSGG32i,,...,,,,..;:.</tspan>
+    <tspan x="90.1" y="286">.;..,i,,:sAAAs;,,,,:XhGGH3i,,,,,iXAAAr:,:;..::</tspan>
+    <tspan x="90.1" y="295">;ri.,r:;:,,:.,.::,:,;h#BS5:,:,;,,,,:,,;;;i.,Xi.</tspan>
+    <tspan x="90.1" y="304">X;;,,ssA;,,Xi:;5Xr5As39B#5iXArAX;:ri.,iXsi.;:s,</tspan>
+    <tspan x="90.1" y="313">X2s,,s235riisX2A2hh323#9S525h3AA5Asiis53Ai.:s5.</tspan>
+    <tspan x="90.1" y="322">.A5;,iAhMh355hMMGSH353S#H225hGHMMh355hM5X;,s5;</tspan>
+    <tspan x="96.1" y="331">:Mr,;s3HGGGGGGS#Gh22h#9G3253GSSSGGGGHM2r:,5X</tspan>
+    <tspan x="96.1" y="340">.s;.:r2hMHSS##SSG2s2M#9ShAs2GSSSSSGHM3Ai,.X,</tspan>
+    <tspan x="102.1" y="349">:s.,iX3hHGSS#SSSAAhH9B#M3AASSS##SGM35s;,,s.</tspan>
+    <tspan x="102.1" y="358">.2,.;s23MHSSSS#SX;rH99#X;iXGSSSSSHh5As:.;i</tspan>
+    <tspan x="108.1" y="367">,,.:sA23HHGSSSG2:.,iii,,:5SSSGGHM5AXi,.:.</tspan>
+    <tspan x="114.1" y="376">..,;sA2hMHGHhMA:.,.,,:,:AhMMGHM32Xs:..</tspan>
+    <tspan x="120.2" y="385">..,;XA5h3si;i,,:i.,,;:.,:i;rhh5As:,,.</tspan>
+    <tspan x="126.2" y="394">.,,:s22i;::;irrXsXsXsr;:;;;;2Ar;,,.</tspan>
+    <tspan x="126.2" y="403">...,,ir;;r;;;;;;iiii;;;::;i;ii,,,,.</tspan>
+    <tspan x="132.2" y="412">..,,,rr:A35AA3Mh53M5AsA5r:si,,,..</tspan>
+    <tspan x="132.2" y="421">...,,:,;A522ri;:;;irrXA2A;::.,..</tspan>
+    <tspan x="138.2" y="430">,...,,,;isAAr:,,,:isXrii;,.,...</tspan>
+    <tspan x="138.2" y="439">,,....,,,;XMh25522HhX;::,....,.</tspan>
+    <tspan x="138.2" y="448">,;,....,,;;rA53HH3Asi;:,....,:.</tspan>
+    <tspan x="132.2" y="457">.,;;:.....,,:iisAXsi;,.,...,:;:,.</tspan>
+    <tspan x="120.2" y="466">:;;:i;;:,......,,,,,:,,.....,:;i::rA;</tspan>
+    <tspan x="102.1" y="475">.rh3:::iri;::,...............,,;;ii;,,s@5:</tspan>
+    <tspan x="102.1" y="484">M@@2ii:issii;:,,,..........,,::;iri;:;iS%@:</tspan>
+    <tspan x="96.1" y="493">.%B%Msi;irsssi;:::,,,:::,,:::::irrrr;:iXBB@A</tspan>
+  </text>
+
+
+  <text class="text" x="570" y="120" font-weight="700">Veton Shabani</text>
+  <line class="line" x1="724" y1="114" x2="1238" y2="114" />
+
+  <text class="text label" x="570" y="152">Role:</text>
+  <text class="text muted" x="724" y="152">............</text>
+  <text class="text value" x="860" y="152">Full Stack Developer</text>
+
+  <text class="text label" x="570" y="184">Experience:</text>
+  <text class="text muted" x="724" y="184">............</text>
+  <text class="text value" x="860" y="184">5+ years, web &amp; mobile apps</text>
+
+  <text class="text label" x="570" y="216">Backend:</text>
+  <text class="text muted" x="724" y="216">............</text>
+  <text class="text value" x="860" y="216">Java Spring Boot, Laravel</text>
+
+  <text class="text label" x="570" y="248">Frontend:</text>
+  <text class="text muted" x="724" y="248">............</text>
+  <text class="text value" x="860" y="248">Angular, React, Vue, Next.js, Astro</text>
+
+  <text class="text label" x="570" y="280">Mobile.Cloud:</text>
+  <text class="text muted" x="724" y="280">............</text>
+  <text class="text value" x="860" y="280">Expo, Flutter, AWS, Cloudflare</text>
+
+  <text class="text label" x="570" y="312">Current:</text>
+  <text class="text muted" x="724" y="312">............</text>
+  <text class="text value" x="860" y="312">BallSquad Lead, Raze Engineer</text>
+
+  <text class="text" x="570" y="366">- Contact</text>
+  <line class="line" x1="704" y1="360" x2="1238" y2="360" />
+
+  <text class="text label" x="570" y="398">GitHub:</text>
+  <text class="text muted" x="724" y="398">............</text>
+  <text class="text value" x="860" y="398">github.com/vetonshabani0</text>
+
+  <text class="text label" x="570" y="430">LinkedIn:</text>
+  <text class="text muted" x="724" y="430">............</text>
+  <text class="text value" x="860" y="430">linkedin.com/in/vetonshabani0</text>
+
+  <text class="text label" x="570" y="462">Email:</text>
+  <text class="text muted" x="724" y="462">............</text>
+  <text class="text value" x="860" y="462">vetonshabani0@gmail.com</text>
+
+  <text class="text" x="570" y="496">- GitHub Stats</text>
+  <line class="line" x1="748" y1="490" x2="1238" y2="490" />
+  <text class="text label" x="570" y="528">Repos:</text>
+  <text id="repo_data" class="text value" x="660" y="528">30+</text>
+  <text class="text" x="704" y="528">|</text>
+  <text class="text label" x="730" y="528">Active:</text>
+  <text id="active_since_data" class="text value" x="824" y="528">2020</text>
+  <text class="text" x="880" y="528">|</text>
+  <text class="text label" x="906" y="528">Followers:</text>
+  <text id="follower_data" class="text value" x="1030" y="528">8</text>
+  <text class="text" x="1076" y="528">|</text>
+  <text class="text label" x="1098" y="528">Commits:</text>
+  <text id="commit_data" class="text value" x="1196" y="528">8,212</text>
+</svg>
