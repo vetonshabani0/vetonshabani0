@@ -24,7 +24,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PROFILE_STATS_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
           PROFILE_REPO_COUNT: ${{ vars.PROFILE_REPO_COUNT }}
-          PROFILE_COMMIT_COUNT: ${{ vars.PROFILE_COMMIT_COUNT }}
           PROFILE_USERNAME: ${{ github.repository_owner }}
 
       - name: Commit changes

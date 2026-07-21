@@ -17,6 +17,6 @@ follower, and contribution counts.
 
 For private repositories or exact all-account stats, add a repository secret
 named PROFILE_STATS_TOKEN with read-only access to your repositories. You can
-also set repository variables named PROFILE_REPO_COUNT and PROFILE_COMMIT_COUNT
-when you want to display a manual total such as private repo counts.
+also set a repository variable named PROFILE_REPO_COUNT when you want to display
+a manual repo total such as private repo counts.
 -->

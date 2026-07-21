@@ -80,9 +80,6 @@ def authenticated_repos(token: str) -> list[dict[str, object]]:
 
 
 def all_time_commit_contributions(username: str, created_at: str, token: str) -> int:
-    # Counts every year's contribution-calendar total, which includes private
-    # repositories when the supplied token belongs to the account. Public-only
-    # commit totals badly undercount accounts whose work lives in private repos.
     query = """
       query($login: String!, $from: DateTime!, $to: DateTime!) {
         user(login: $login) {
@@ -177,8 +174,7 @@ def main() -> None:
         "repos": repo_override or (len(repos) if stats_token else None),
         "active_since": active_since(user.get("created_at")),
         "followers": int(user.get("followers", 0)),
-        "commits": env_value("PROFILE_COMMIT_COUNT")
-        or (
+        "commits": (
             all_time_commit_contributions(username, str(user.get("created_at")), stats_token)
             if stats_token
             else public_contribution_count(username)
